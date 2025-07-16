@@ -1,0 +1,824 @@
+0000.002 (0) Opened log file at time: Mon, 23 Jun 2025 03:41:54 +0000 on https://www.amareno.be
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.1 PHP: 7.4.33 (fpm-fcgi, Linux com-linweb584 6.1.87-hcl #deb11 SMP Wed Apr 17 11:47:52 UTC 2024 x86_64) MySQL: 5.7.44-49-log (max packet size=134217728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 20.7M | 22M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 878961.5 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: monthly)
+0000.006 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.012 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1748069016, seconds_ago=2581098)
+0000.014 (0) Set semaphore last lock (fd) time to 2025-06-23 03:41:54
+0000.014 (0) Semaphore lock (fd) complete
+0000.018 (0) Backup run: resumption=0, nonce=1843d176ed67, file_nonce=1843d176ed67 begun at=1750650114 (0s ago), job type=backup
+0000.018 (0) Scheduling a resumption (1) after 300 seconds (1750650414) in case this run gets aborted
+0000.047 (0) Checking if we have a zip executable available
+0000.048 (0) Testing: /usr/bin/zip
+0000.056 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.058 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.058 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.059 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.059 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.070 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.072 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.092 (0) Working binary zip found: /usr/bin/zip
+0000.093 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.094 (0) Creation of backups of directories: beginning
+0000.098 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0012.093 (0) Total entities for the zip file: 4041 directories, 22963 files (0 skipped as non-modified), 230.4 MB
+0012.097 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0012.203 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: size is now: 0.90 MB
+0012.238 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 100 files added (on-disk size: 964.7 KB)
+0012.272 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 200 files added (on-disk size: 964.7 KB)
+0012.304 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 300 files added (on-disk size: 964.7 KB)
+0012.338 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 400 files added (on-disk size: 964.7 KB)
+0012.366 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 500 files added (on-disk size: 964.7 KB)
+0012.397 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 600 files added (on-disk size: 964.7 KB)
+0012.429 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 700 files added (on-disk size: 964.7 KB)
+0012.460 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 800 files added (on-disk size: 964.7 KB)
+0012.494 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 900 files added (on-disk size: 964.7 KB)
+0012.523 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 1000 files added (on-disk size: 964.7 KB)
+0012.524 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.5 MB, 22963 files batched, 1001 (1002) added so far); re-opening (prior size: 964.7 KB)
+0013.824 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: size is now: 7.50 MB
+0013.861 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 1100 files added (on-disk size: 7685.7 KB)
+0013.896 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 1200 files added (on-disk size: 7685.7 KB)
+0013.932 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 1300 files added (on-disk size: 7685.7 KB)
+0013.967 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 1400 files added (on-disk size: 7685.7 KB)
+0014.003 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 1500 files added (on-disk size: 7685.7 KB)
+0014.039 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 1600 files added (on-disk size: 7685.7 KB)
+0014.079 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 1700 files added (on-disk size: 7685.7 KB)
+0014.115 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 1800 files added (on-disk size: 7685.7 KB)
+0014.153 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 1900 files added (on-disk size: 7685.7 KB)
+0014.192 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 2000 files added (on-disk size: 7685.7 KB)
+0014.195 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.7 MB, 22963 files batched, 1001 (2003) added so far); re-opening (prior size: 7685.7 KB)
+0015.320 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: size is now: 10.80 MB
+0015.355 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 2100 files added (on-disk size: 11058 KB)
+0015.386 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 2200 files added (on-disk size: 11058 KB)
+0015.419 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 2300 files added (on-disk size: 11058 KB)
+0015.452 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 2400 files added (on-disk size: 11058 KB)
+0015.483 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 2500 files added (on-disk size: 11058 KB)
+0015.516 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 2600 files added (on-disk size: 11058 KB)
+0015.546 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 2700 files added (on-disk size: 11058 KB)
+0015.579 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 2800 files added (on-disk size: 11058 KB)
+0015.610 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 2900 files added (on-disk size: 11058 KB)
+0015.640 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 3000 files added (on-disk size: 11058 KB)
+0015.642 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.8 MB, 22963 files batched, 1001 (3004) added so far); re-opening (prior size: 11058 KB)
+0016.805 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: size is now: 14.40 MB
+0016.836 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 3100 files added (on-disk size: 14793.4 KB)
+0016.868 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 3200 files added (on-disk size: 14793.4 KB)
+0016.901 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 3300 files added (on-disk size: 14793.4 KB)
+0016.931 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 3400 files added (on-disk size: 14793.4 KB)
+0016.963 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 3500 files added (on-disk size: 14793.4 KB)
+0016.994 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 3600 files added (on-disk size: 14793.4 KB)
+0017.023 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 3700 files added (on-disk size: 14793.4 KB)
+0017.054 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 3800 files added (on-disk size: 14793.4 KB)
+0017.086 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 3900 files added (on-disk size: 14793.4 KB)
+0017.120 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 4000 files added (on-disk size: 14793.4 KB)
+0017.122 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11 MB, 22963 files batched, 1001 (4005) added so far); re-opening (prior size: 14793.4 KB)
+0018.248 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: size is now: 18.00 MB
+0018.282 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 4100 files added (on-disk size: 18450.3 KB)
+0018.320 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 4200 files added (on-disk size: 18450.3 KB)
+0018.357 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 4300 files added (on-disk size: 18450.3 KB)
+0018.388 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 4400 files added (on-disk size: 18450.3 KB)
+0018.419 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 4500 files added (on-disk size: 18450.3 KB)
+0018.455 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 4600 files added (on-disk size: 18450.3 KB)
+0018.486 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 4700 files added (on-disk size: 18450.3 KB)
+0018.519 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 4800 files added (on-disk size: 18450.3 KB)
+0018.551 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 4900 files added (on-disk size: 18450.3 KB)
+0018.586 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 5000 files added (on-disk size: 18450.3 KB)
+0018.589 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.2 MB, 22963 files batched, 1001 (5006) added so far); re-opening (prior size: 18450.3 KB)
+0019.811 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: size is now: 22.20 MB
+0019.840 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 5100 files added (on-disk size: 22712.2 KB)
+0019.873 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 5200 files added (on-disk size: 22712.2 KB)
+0019.906 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 5300 files added (on-disk size: 22712.2 KB)
+0019.940 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 5400 files added (on-disk size: 22712.2 KB)
+0019.973 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 5500 files added (on-disk size: 22712.2 KB)
+0020.004 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 5600 files added (on-disk size: 22712.2 KB)
+0020.034 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 5700 files added (on-disk size: 22712.2 KB)
+0020.067 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 5800 files added (on-disk size: 22712.2 KB)
+0020.101 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 5900 files added (on-disk size: 22712.2 KB)
+0020.135 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 6000 files added (on-disk size: 22712.2 KB)
+0020.139 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.5 MB, 22963 files batched, 1001 (6007) added so far); re-opening (prior size: 22712.2 KB)
+0021.377 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 6100 files added (on-disk size: 26476.4 KB)
+0021.412 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 6200 files added (on-disk size: 26476.4 KB)
+0021.444 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 6300 files added (on-disk size: 26476.4 KB)
+0021.479 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 6400 files added (on-disk size: 26476.4 KB)
+0021.509 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 6500 files added (on-disk size: 26476.4 KB)
+0021.542 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 6600 files added (on-disk size: 26476.4 KB)
+0021.582 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 6700 files added (on-disk size: 26476.4 KB)
+0021.616 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 6800 files added (on-disk size: 26476.4 KB)
+0021.649 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 6900 files added (on-disk size: 26476.4 KB)
+0021.685 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 7000 files added (on-disk size: 26476.4 KB)
+0021.689 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.9 MB, 22963 files batched, 1001 (7008) added so far); re-opening (prior size: 26476.4 KB)
+0023.021 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 7100 files added (on-disk size: 31640.4 KB)
+0023.054 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 7200 files added (on-disk size: 31640.4 KB)
+0023.090 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 7300 files added (on-disk size: 31640.4 KB)
+0023.122 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 7400 files added (on-disk size: 31640.4 KB)
+0023.154 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 7500 files added (on-disk size: 31640.4 KB)
+0023.188 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 7600 files added (on-disk size: 31640.4 KB)
+0023.224 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 7700 files added (on-disk size: 31640.4 KB)
+0023.262 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 7800 files added (on-disk size: 31640.4 KB)
+0023.302 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 7900 files added (on-disk size: 31640.4 KB)
+0023.338 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 8000 files added (on-disk size: 31640.4 KB)
+0023.342 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3 MB, 22963 files batched, 1001 (8009) added so far); re-opening (prior size: 31640.4 KB)
+0024.165 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 8100 files added (on-disk size: 32473.5 KB)
+0024.194 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 8200 files added (on-disk size: 32473.5 KB)
+0024.225 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 8300 files added (on-disk size: 32473.5 KB)
+0024.259 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 8400 files added (on-disk size: 32473.5 KB)
+0024.293 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 8500 files added (on-disk size: 32473.5 KB)
+0024.323 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 8600 files added (on-disk size: 32473.5 KB)
+0024.356 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 8700 files added (on-disk size: 32473.5 KB)
+0024.391 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 8800 files added (on-disk size: 32473.5 KB)
+0024.925 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 8900 files added (on-disk size: 32473.5 KB)
+0024.958 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 9000 files added (on-disk size: 32473.5 KB)
+0024.962 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.1 MB, 22963 files batched, 1001 (9010) added so far); re-opening (prior size: 32473.5 KB)
+0026.364 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 9100 files added (on-disk size: 34776.5 KB)
+0026.398 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 9200 files added (on-disk size: 34776.5 KB)
+0026.440 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 9300 files added (on-disk size: 34776.5 KB)
+0026.474 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 9400 files added (on-disk size: 34776.5 KB)
+0026.509 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 9500 files added (on-disk size: 34776.5 KB)
+0026.542 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 9600 files added (on-disk size: 34776.5 KB)
+0026.573 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 9700 files added (on-disk size: 34776.5 KB)
+0026.608 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 9800 files added (on-disk size: 34776.5 KB)
+0026.644 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 9900 files added (on-disk size: 34776.5 KB)
+0026.684 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 10000 files added (on-disk size: 34776.5 KB)
+0026.688 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.6 MB, 22963 files batched, 1001 (10011) added so far); re-opening (prior size: 34776.5 KB)
+0027.971 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 10100 files added (on-disk size: 37089.2 KB)
+0028.006 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 10200 files added (on-disk size: 37089.2 KB)
+0028.040 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 10300 files added (on-disk size: 37089.2 KB)
+0028.076 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 10400 files added (on-disk size: 37089.2 KB)
+0028.112 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 10500 files added (on-disk size: 37089.2 KB)
+0028.145 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 10600 files added (on-disk size: 37089.2 KB)
+0028.183 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 10700 files added (on-disk size: 37089.2 KB)
+0028.227 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 10800 files added (on-disk size: 37089.2 KB)
+0028.263 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 10900 files added (on-disk size: 37089.2 KB)
+0028.302 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 11000 files added (on-disk size: 37089.2 KB)
+0028.308 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.5 MB, 22963 files batched, 1001 (11012) added so far); re-opening (prior size: 37089.2 KB)
+0029.372 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 11100 files added (on-disk size: 38395.4 KB)
+0029.413 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 11200 files added (on-disk size: 38395.4 KB)
+0029.452 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 11300 files added (on-disk size: 38395.4 KB)
+0029.490 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 11400 files added (on-disk size: 38395.4 KB)
+0029.526 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 11500 files added (on-disk size: 38395.4 KB)
+0029.565 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 11600 files added (on-disk size: 38395.4 KB)
+0029.603 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 11700 files added (on-disk size: 38395.4 KB)
+0029.636 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 11800 files added (on-disk size: 38395.4 KB)
+0029.670 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 11900 files added (on-disk size: 38395.4 KB)
+0029.706 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 12000 files added (on-disk size: 38395.4 KB)
+0029.712 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.9 MB, 22963 files batched, 1001 (12013) added so far); re-opening (prior size: 38395.4 KB)
+0030.774 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 12100 files added (on-disk size: 39516 KB)
+0030.806 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 12200 files added (on-disk size: 39516 KB)
+0030.843 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 12300 files added (on-disk size: 39516 KB)
+0030.873 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 12400 files added (on-disk size: 39516 KB)
+0030.903 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 12500 files added (on-disk size: 39516 KB)
+0030.940 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 12600 files added (on-disk size: 39516 KB)
+0030.976 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 12700 files added (on-disk size: 39516 KB)
+0031.008 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 12800 files added (on-disk size: 39516 KB)
+0031.037 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 12900 files added (on-disk size: 39516 KB)
+0031.065 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 13000 files added (on-disk size: 39516 KB)
+0031.069 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.1 MB, 22963 files batched, 1001 (13014) added so far); re-opening (prior size: 39516 KB)
+0031.988 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 13100 files added (on-disk size: 40651.8 KB)
+0032.021 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 13200 files added (on-disk size: 40651.8 KB)
+0032.055 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 13300 files added (on-disk size: 40651.8 KB)
+0032.086 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 13400 files added (on-disk size: 40651.8 KB)
+0032.119 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 13500 files added (on-disk size: 40651.8 KB)
+0032.147 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 13600 files added (on-disk size: 40651.8 KB)
+0032.179 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 13700 files added (on-disk size: 40651.8 KB)
+0032.211 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 13800 files added (on-disk size: 40651.8 KB)
+0032.240 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 13900 files added (on-disk size: 40651.8 KB)
+0032.270 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 14000 files added (on-disk size: 40651.8 KB)
+0032.276 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.1 MB, 22963 files batched, 1001 (14015) added so far); re-opening (prior size: 40651.8 KB)
+0033.308 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 14100 files added (on-disk size: 41787.1 KB)
+0033.342 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 14200 files added (on-disk size: 41787.1 KB)
+0033.377 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 14300 files added (on-disk size: 41787.1 KB)
+0033.411 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 14400 files added (on-disk size: 41787.1 KB)
+0033.446 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 14500 files added (on-disk size: 41787.1 KB)
+0033.481 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 14600 files added (on-disk size: 41787.1 KB)
+0033.512 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 14700 files added (on-disk size: 41787.1 KB)
+0033.548 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 14800 files added (on-disk size: 41787.1 KB)
+0033.579 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 14900 files added (on-disk size: 41787.1 KB)
+0033.613 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 15000 files added (on-disk size: 41787.1 KB)
+0033.620 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5 MB, 22963 files batched, 1001 (15016) added so far); re-opening (prior size: 41787.1 KB)
+0034.870 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 15100 files added (on-disk size: 43010.5 KB)
+0034.902 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 15200 files added (on-disk size: 43010.5 KB)
+0034.942 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 15300 files added (on-disk size: 43010.5 KB)
+0034.978 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 15400 files added (on-disk size: 43010.5 KB)
+0035.006 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 15500 files added (on-disk size: 43010.5 KB)
+0035.035 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 15600 files added (on-disk size: 43010.5 KB)
+0035.065 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 15700 files added (on-disk size: 43010.5 KB)
+0035.102 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 15800 files added (on-disk size: 43010.5 KB)
+0035.134 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 15900 files added (on-disk size: 43010.5 KB)
+0035.170 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 16000 files added (on-disk size: 43010.5 KB)
+0035.176 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.8 MB, 22963 files batched, 1001 (16017) added so far); re-opening (prior size: 43010.5 KB)
+0036.163 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 16100 files added (on-disk size: 44118.8 KB)
+0036.193 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 16200 files added (on-disk size: 44118.8 KB)
+0036.225 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 16300 files added (on-disk size: 44118.8 KB)
+0036.254 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 16400 files added (on-disk size: 44118.8 KB)
+0036.286 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 16500 files added (on-disk size: 44118.8 KB)
+0036.316 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 16600 files added (on-disk size: 44118.8 KB)
+0036.345 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 16700 files added (on-disk size: 44118.8 KB)
+0036.377 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 16800 files added (on-disk size: 44118.8 KB)
+0036.406 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 16900 files added (on-disk size: 44118.8 KB)
+0036.439 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 17000 files added (on-disk size: 44118.8 KB)
+0036.446 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.1 MB, 22963 files batched, 1001 (17018) added so far); re-opening (prior size: 44118.8 KB)
+0037.438 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 17100 files added (on-disk size: 45211 KB)
+0037.468 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 17200 files added (on-disk size: 45211 KB)
+0037.500 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 17300 files added (on-disk size: 45211 KB)
+0037.533 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 17400 files added (on-disk size: 45211 KB)
+0037.563 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 17500 files added (on-disk size: 45211 KB)
+0037.595 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 17600 files added (on-disk size: 45211 KB)
+0037.625 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 17700 files added (on-disk size: 45211 KB)
+0037.653 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 17800 files added (on-disk size: 45211 KB)
+0037.716 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 17900 files added (on-disk size: 45211 KB)
+0037.744 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 18000 files added (on-disk size: 45211 KB)
+0037.751 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.4 MB, 22963 files batched, 1001 (18019) added so far); re-opening (prior size: 45211 KB)
+0038.752 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 18100 files added (on-disk size: 46339.6 KB)
+0038.782 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 18200 files added (on-disk size: 46339.6 KB)
+0038.818 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 18300 files added (on-disk size: 46339.6 KB)
+0038.853 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 18400 files added (on-disk size: 46339.6 KB)
+0038.887 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 18500 files added (on-disk size: 46339.6 KB)
+0038.921 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 18600 files added (on-disk size: 46339.6 KB)
+0038.953 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 18700 files added (on-disk size: 46339.6 KB)
+0038.984 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 18800 files added (on-disk size: 46339.6 KB)
+0039.016 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 18900 files added (on-disk size: 46339.6 KB)
+0039.049 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 19000 files added (on-disk size: 46339.6 KB)
+0039.055 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4 MB, 22963 files batched, 1001 (19020) added so far); re-opening (prior size: 46339.6 KB)
+0040.080 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 19100 files added (on-disk size: 47785.5 KB)
+0040.109 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 19200 files added (on-disk size: 47785.5 KB)
+0040.141 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 19300 files added (on-disk size: 47785.5 KB)
+0040.174 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 19400 files added (on-disk size: 47785.5 KB)
+0040.220 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 19500 files added (on-disk size: 47785.5 KB)
+0040.251 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 19600 files added (on-disk size: 47785.5 KB)
+0040.282 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 19700 files added (on-disk size: 47785.5 KB)
+0040.318 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 19800 files added (on-disk size: 47785.5 KB)
+0040.351 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 19900 files added (on-disk size: 47785.5 KB)
+0040.387 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 20000 files added (on-disk size: 47785.5 KB)
+0040.395 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.4 MB, 22963 files batched, 1001 (20021) added so far); re-opening (prior size: 47785.5 KB)
+0041.795 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 20100 files added (on-disk size: 51974.7 KB)
+0041.826 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 20200 files added (on-disk size: 51974.7 KB)
+0041.856 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 20300 files added (on-disk size: 51974.7 KB)
+0041.887 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 20400 files added (on-disk size: 51974.7 KB)
+0041.916 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 20500 files added (on-disk size: 51974.7 KB)
+0041.947 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 20600 files added (on-disk size: 51974.7 KB)
+0041.978 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 20700 files added (on-disk size: 51974.7 KB)
+0042.006 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 20800 files added (on-disk size: 51974.7 KB)
+0042.038 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 20900 files added (on-disk size: 51974.7 KB)
+0042.071 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 21000 files added (on-disk size: 51974.7 KB)
+0042.080 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.3 MB, 22963 files batched, 1001 (21022) added so far); re-opening (prior size: 51974.7 KB)
+0044.454 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 21100 files added (on-disk size: 61246.7 KB)
+0044.494 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 21200 files added (on-disk size: 61246.7 KB)
+0044.526 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 21300 files added (on-disk size: 61246.7 KB)
+0044.559 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 21400 files added (on-disk size: 61246.7 KB)
+0044.592 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 21500 files added (on-disk size: 61246.7 KB)
+0044.624 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 21600 files added (on-disk size: 61246.7 KB)
+0044.660 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 21700 files added (on-disk size: 61246.7 KB)
+0044.694 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 21800 files added (on-disk size: 61246.7 KB)
+0044.727 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 21900 files added (on-disk size: 61246.7 KB)
+0044.760 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 22000 files added (on-disk size: 61246.7 KB)
+0044.768 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.7 MB, 22963 files batched, 1001 (22023) added so far); re-opening (prior size: 61246.7 KB)
+0046.338 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 22100 files added (on-disk size: 65422.3 KB)
+0046.368 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 22200 files added (on-disk size: 65422.3 KB)
+0046.399 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 22300 files added (on-disk size: 65422.3 KB)
+0046.429 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 22400 files added (on-disk size: 65422.3 KB)
+0046.459 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 22500 files added (on-disk size: 65422.3 KB)
+0046.490 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 22600 files added (on-disk size: 65422.3 KB)
+0046.520 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 22700 files added (on-disk size: 65422.3 KB)
+0046.553 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 22800 files added (on-disk size: 65422.3 KB)
+0046.581 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.tmp: 22900 files added (on-disk size: 65422.3 KB)
+0048.677 (0) Creating zip file manifest (backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.list-temp.tmp)
+0048.709 (0) Successfully created zip file manifest (size: 2281240)
+0049.426 (0) Created plugins zip (0) - 71129.4 KB in 49.3 s (1442 KB/s) (sha1: d081227690e7c995a6362d659c60bc193eca7b72, sha256: e1e7b6acbb79f5b67437626e372c271fa2c7bd2af340d7303e2fab7157ddb0e0)
+0049.451 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0049.452 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-80aeb31918c13d5cda4b2aad3e129a13)
+0049.588 (0) FTP: upload attempt: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip -> ftp://amarenobe@amarenobe@ftp.amarenobe.webhosting.be//backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip
+0049.646 (0) Ftp chunked upload: 0.7 % uploaded
+0049.662 (0) Ftp chunked upload: 1.5 % uploaded
+0049.679 (0) Ftp chunked upload: 2.2 % uploaded
+0049.692 (0) Ftp chunked upload: 2.9 % uploaded
+0049.711 (0) Ftp chunked upload: 4.3 % uploaded
+0049.730 (0) Ftp chunked upload: 5.8 % uploaded
+0049.765 (0) Ftp chunked upload: 8.7 % uploaded
+0049.799 (0) Ftp chunked upload: 11.6 % uploaded
+0049.833 (0) Ftp chunked upload: 14.4 % uploaded
+0049.865 (0) Ftp chunked upload: 17.3 % uploaded
+0050.754 (0) Ftp chunked upload: 20.2 % uploaded
+0050.783 (0) Ftp chunked upload: 23.1 % uploaded
+0050.811 (0) Ftp chunked upload: 26 % uploaded
+0050.841 (0) Ftp chunked upload: 28.9 % uploaded
+0050.870 (0) Ftp chunked upload: 31.7 % uploaded
+0050.900 (0) Ftp chunked upload: 34.6 % uploaded
+0050.929 (0) Ftp chunked upload: 37.5 % uploaded
+0050.959 (0) Ftp chunked upload: 40.4 % uploaded
+0050.987 (0) Ftp chunked upload: 43.3 % uploaded
+0051.018 (0) Ftp chunked upload: 46.2 % uploaded
+0051.060 (0) Ftp chunked upload: 49.1 % uploaded
+0051.089 (0) Ftp chunked upload: 51.9 % uploaded
+0051.120 (0) Ftp chunked upload: 54.8 % uploaded
+0051.148 (0) Ftp chunked upload: 57.7 % uploaded
+0051.175 (0) Ftp chunked upload: 60.6 % uploaded
+0051.214 (0) Ftp chunked upload: 63.5 % uploaded
+0051.266 (0) Ftp chunked upload: 66.4 % uploaded
+0051.295 (0) Ftp chunked upload: 69.2 % uploaded
+0051.326 (0) Ftp chunked upload: 72.1 % uploaded
+0051.354 (0) Ftp chunked upload: 75 % uploaded
+0051.394 (0) Ftp chunked upload: 77.9 % uploaded
+0051.431 (0) Ftp chunked upload: 80.8 % uploaded
+0051.460 (0) Ftp chunked upload: 83.7 % uploaded
+0051.489 (0) Ftp chunked upload: 86.5 % uploaded
+0051.517 (0) Ftp chunked upload: 89.4 % uploaded
+0051.547 (0) Ftp chunked upload: 92.3 % uploaded
+0051.575 (0) Ftp chunked upload: 95.2 % uploaded
+0051.605 (0) Ftp chunked upload: 98.1 % uploaded
+0051.664 (0) FTP: upload attempt successful (71129.4KB in 2.07s)
+0051.665 (0) Recording as successfully uploaded: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip
+0051.699 (0) Deleting local file: backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip: OK
+0051.704 (0) Beginning creation of dump of themes (split every: 400 MB)
+0051.828 (0) Total entities for the zip file: 34 directories, 317 files (0 skipped as non-modified), 10.1 MB
+0051.858 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0051.891 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0051.922 (0) Zip: backup_2025-06-23-0541_AmaReno_1843d176ed67-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0052.472 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-themes.zip.tmp: size is now: 6.40 MB
+0052.482 (0) Creating zip file manifest (backup_2025-06-23-0541_AmaReno_1843d176ed67-themes.zip.list-temp.tmp)
+0052.484 (0) Successfully created zip file manifest (size: 19961)
+0052.562 (0) Created themes zip (0) - 6560.7 KB in 0.9 s (7678.5 KB/s) (sha1: 4216a424f5b8e7631f2854c584dca570ce7ddde9, sha256: 1fcb931f47c3346de35c66376d53590853f71fa2c093e44f2e95eb34d42cca20)
+0052.567 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0052.568 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-80aeb31918c13d5cda4b2aad3e129a13)
+0052.681 (0) FTP: upload attempt: backup_2025-06-23-0541_AmaReno_1843d176ed67-themes.zip -> ftp://amarenobe@amarenobe@ftp.amarenobe.webhosting.be//backup_2025-06-23-0541_AmaReno_1843d176ed67-themes.zip
+0052.701 (0) Ftp chunked upload: 7.9 % uploaded
+0052.716 (0) Ftp chunked upload: 15.7 % uploaded
+0052.728 (0) Ftp chunked upload: 23.6 % uploaded
+0052.741 (0) Ftp chunked upload: 31.5 % uploaded
+0052.762 (0) Ftp chunked upload: 47.1 % uploaded
+0052.783 (0) Ftp chunked upload: 62.8 % uploaded
+0052.823 (0) Ftp chunked upload: 94.1 % uploaded
+0052.847 (0) FTP: upload attempt successful (6560.7KB in 0.17s)
+0052.848 (0) Recording as successfully uploaded: backup_2025-06-23-0541_AmaReno_1843d176ed67-themes.zip
+0052.852 (0) Deleting local file: backup_2025-06-23-0541_AmaReno_1843d176ed67-themes.zip: OK
+0052.855 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0052.856 (0) Looking for candidates to backup in: /data/sites/web/amarenobe/www/wp-content/uploads
+0052.857 (0) finding files: 2019: adding to list (1)
+0052.858 (0) finding files: 2017: adding to list (2)
+0052.858 (0) finding files: us-assets: adding to list (3)
+0052.858 (0) finding files: js_composer: adding to list (4)
+0052.859 (0) finding files: 2018: adding to list (5)
+0052.859 (0) finding files: smile_fonts: adding to list (6)
+0052.859 (0) finding files: wpcf7_uploads: adding to list (7)
+0052.860 (0) finding files: 2020: adding to list (8)
+0052.860 (0) finding files: backwpup-b17dd7-logs: skipping: excluded by options (glob)
+0052.860 (0) finding files: backwpup-b17dd7-temp: skipping: excluded by options (glob)
+0052.860 (0) finding files: cfdb7_uploads: adding to list (9)
+0052.861 (0) finding files: 2021: adding to list (10)
+0052.861 (0) finding files: 2022: adding to list (11)
+0052.861 (0) finding files: complianz: adding to list (12)
+0052.861 (0) finding files: 2023: adding to list (13)
+0052.862 (0) finding files: 2024: adding to list (14)
+0052.862 (0) finding files: backwpup: skipping: excluded by options (glob)
+0052.862 (0) finding files: backwpup-restore: skipping: excluded by options (glob)
+0052.862 (0) finding files: 2025: adding to list (15)
+0052.863 (0) finding files: .htaccess: adding to list (16)
+0052.863 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0052.996 (0) Total entities for the zip file: 110 directories, 56 files (0 skipped as non-modified), 3.8 MB
+0053.315 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-uploads.zip.tmp: size is now: 2.30 MB
+0053.322 (0) Creating zip file manifest (backup_2025-06-23-0541_AmaReno_1843d176ed67-uploads.zip.list-temp.tmp)
+0053.324 (0) Successfully created zip file manifest (size: 3929)
+0053.358 (0) Created uploads zip (0) - 2333.4 KB in 0.5 s (4741.9 KB/s) (sha1: 997d52e6578750ffac9b3a1bc4e5f0784c5c8ea2, sha256: 60f155835064ef5b66c606a5645cb3697be1187a3ba64822b9a4cb19d23b2c29)
+0053.363 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0053.363 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-80aeb31918c13d5cda4b2aad3e129a13)
+0053.481 (0) FTP: upload attempt: backup_2025-06-23-0541_AmaReno_1843d176ed67-uploads.zip -> ftp://amarenobe@amarenobe@ftp.amarenobe.webhosting.be//backup_2025-06-23-0541_AmaReno_1843d176ed67-uploads.zip
+0053.496 (0) Ftp chunked upload: 22.1 % uploaded
+0053.506 (0) Ftp chunked upload: 44.2 % uploaded
+0053.515 (0) Ftp chunked upload: 66.3 % uploaded
+0053.524 (0) Ftp chunked upload: 88.4 % uploaded
+0053.540 (0) FTP: upload attempt successful (2333.4KB in 0.06s)
+0053.541 (0) Recording as successfully uploaded: backup_2025-06-23-0541_AmaReno_1843d176ed67-uploads.zip
+0053.544 (0) Deleting local file: backup_2025-06-23-0541_AmaReno_1843d176ed67-uploads.zip: OK
+0053.548 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0053.552 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0053.568 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-mu-plugins.zip.tmp: size is now: 0.00 MB
+0053.572 (0) Creating zip file manifest (backup_2025-06-23-0541_AmaReno_1843d176ed67-mu-plugins.zip.list-temp.tmp)
+0053.574 (0) Successfully created zip file manifest (size: 64)
+0053.578 (0) Created mu-plugins zip (0) - 0.8 KB in 0 s (30.1 KB/s) (sha1: 23668f682f39a39f6ff34375371dc1d2338c58ec, sha256: 00a6051369c7838c96679c7a90629f465a06a1912c67fce10145286905b065ef)
+0053.581 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0053.582 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-80aeb31918c13d5cda4b2aad3e129a13)
+0053.837 (0) FTP: upload attempt: backup_2025-06-23-0541_AmaReno_1843d176ed67-mu-plugins.zip -> ftp://amarenobe@amarenobe@ftp.amarenobe.webhosting.be//backup_2025-06-23-0541_AmaReno_1843d176ed67-mu-plugins.zip
+0053.848 (0) FTP: upload attempt successful (0.8KB in 0.01s)
+0053.849 (0) Recording as successfully uploaded: backup_2025-06-23-0541_AmaReno_1843d176ed67-mu-plugins.zip
+0053.850 (0) Deleting local file: backup_2025-06-23-0541_AmaReno_1843d176ed67-mu-plugins.zip: OK
+0053.853 (0) Beginning backup of other directories found in the content directory (index: 0)
+0053.854 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0053.855 (0) Looking for candidates to backup in: /data/sites/web/amarenobe/www/wp-content
+0053.856 (0) finding files: cache: skipping: excluded by options
+0053.857 (0) finding files: advanced-cache.php: adding to list (1)
+0053.857 (0) finding files: themes: skipping: this is the themes directory
+0053.858 (0) finding files: wp-rocket-config: adding to list (2)
+0053.858 (0) finding files: upgrade: skipping: excluded by options
+0053.858 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0053.859 (0) finding files: plugins: skipping: this is the plugins directory
+0053.859 (0) finding files: index.php: adding to list (3)
+0053.860 (0) finding files: uploads: skipping: this is the uploads directory
+0053.860 (0) finding files: wflogs: adding to list (4)
+0053.860 (0) finding files: upgrade-temp-backup: adding to list (5)
+0053.861 (0) finding files: updraft: skipping: this is the updraft directory
+0053.874 (0) Total entities for the zip file: 3 directories, 18 files (0 skipped as non-modified), 10.1 MB
+0054.767 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-others.zip.tmp: size is now: 4.70 MB
+0054.774 (0) Creating zip file manifest (backup_2025-06-23-0541_AmaReno_1843d176ed67-others.zip.list-temp.tmp)
+0054.776 (0) Successfully created zip file manifest (size: 688)
+0054.830 (0) Created others zip (0) - 4848.7 KB in 1 s (5017.6 KB/s) (sha1: 79a3db1ea5a1746f84376e3cf6699415ff609699, sha256: d888bf22672b82e60256e931e768d47b6c8abbd5f07583718b31d7cda43c07f9)
+0054.833 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0054.833 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-80aeb31918c13d5cda4b2aad3e129a13)
+0055.013 (0) FTP: upload attempt: backup_2025-06-23-0541_AmaReno_1843d176ed67-others.zip -> ftp://amarenobe@amarenobe@ftp.amarenobe.webhosting.be//backup_2025-06-23-0541_AmaReno_1843d176ed67-others.zip
+0055.030 (0) Ftp chunked upload: 10.6 % uploaded
+0055.040 (0) Ftp chunked upload: 21.3 % uploaded
+0055.050 (0) Ftp chunked upload: 31.9 % uploaded
+0055.059 (0) Ftp chunked upload: 42.6 % uploaded
+0055.076 (0) Ftp chunked upload: 63.8 % uploaded
+0055.093 (0) Ftp chunked upload: 85 % uploaded
+0055.118 (0) FTP: upload attempt successful (4848.7KB in 0.1s)
+0055.119 (0) Recording as successfully uploaded: backup_2025-06-23-0541_AmaReno_1843d176ed67-others.zip
+0055.122 (0) Deleting local file: backup_2025-06-23-0541_AmaReno_1843d176ed67-others.zip: OK
+0055.127 (0) Saving backup status to database (elements: 10)
+0055.131 (0) Beginning creation of database dump (WordPress DB)
+0055.132 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0055.146 (0) Table wp_options: Total expected rows (via COUNT): 426
+0055.146 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.177 (0) Table wp_options: Rows added in this batch (next record: 420016): 422 (uncompressed bytes in this segment=534359) in 0.04 seconds
+0055.184 (0) Table wp_options: finishing file(s) (2, 122.6 KB)
+0055.188 (0) Table wp_users: Total expected rows (via COUNT): 1
+0055.189 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.191 (0) Table wp_users: Rows added in this batch (next record: 4): 1 (uncompressed bytes in this segment=1362) in 0.00 seconds
+0055.197 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0055.203 (0) Table wp_usermeta: Total expected rows (via COUNT): 28
+0055.203 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.206 (0) Table wp_usermeta: Rows added in this batch (next record: 157): 28 (uncompressed bytes in this segment=2744) in 0.01 seconds
+0055.212 (0) Table wp_usermeta: finishing file(s) (2, 1.4 KB)
+0055.218 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 0
+0055.219 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1752) in 0.00 seconds
+0055.225 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.6 KB)
+0055.228 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 2
+0055.229 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.230 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: 13583): 2 (uncompressed bytes in this segment=740) in 0.00 seconds
+0055.235 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0055.239 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 5
+0055.239 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.242 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=803) in 0.00 seconds
+0055.247 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0055.252 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 0
+0055.255 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=793) in 0.01 seconds
+0055.260 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.4 KB)
+0055.266 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0055.268 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.00 seconds
+0055.273 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0055.277 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0055.280 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1686) in 0.00 seconds
+0055.285 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0055.289 (0) Table wp_links: Total expected rows (via COUNT): 0
+0055.290 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1270) in 0.00 seconds
+0055.294 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0055.300 (0) Table wp_postmeta: Total expected rows (via COUNT): 581
+0055.301 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.309 (0) Table wp_postmeta: Rows added in this batch (next record: 871): 581 (uncompressed bytes in this segment=44376) in 0.01 seconds
+0055.316 (0) Table wp_postmeta: finishing file(s) (2, 8.8 KB)
+0055.324 (0) Table wp_posts: Total expected rows (via COUNT): 129
+0055.324 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.331 (0) Table wp_posts: Rows added in this batch (next record: 219): 129 (uncompressed bytes in this segment=244004) in 0.01 seconds
+0055.337 (0) Table wp_posts: finishing file(s) (2, 21 KB)
+0055.340 (0) Table wp_term_relationships: Total expected rows (approximate): 0
+0055.341 (0) Table wp_term_relationships: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=643) in 0.00 seconds
+0055.345 (0) Table wp_term_relationships: finishing file(s) (2, 0.3 KB)
+0055.350 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 1
+0055.350 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.351 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=914) in 0.00 seconds
+0055.356 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.4 KB)
+0055.361 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0055.362 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.00 seconds
+0055.368 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0055.372 (0) Table wp_terms: Total expected rows (via COUNT): 1
+0055.373 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.374 (0) Table wp_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=724) in 0.00 seconds
+0055.379 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0055.387 (0) Table wp_wpr_above_the_fold: Total expected rows (via COUNT): 4
+0055.388 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.389 (0) Table wp_wpr_above_the_fold: Rows added in this batch (next record: 17): 4 (uncompressed bytes in this segment=2374) in 0.01 seconds
+0055.394 (0) Table wp_wpr_above_the_fold: finishing file(s) (2, 0.8 KB)
+0055.403 (0) Table wp_wpr_lazy_render_content: Total expected rows (via COUNT): 4
+0055.404 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.405 (0) Table wp_wpr_lazy_render_content: Rows added in this batch (next record: 17): 4 (uncompressed bytes in this segment=1772) in 0.01 seconds
+0055.411 (0) Table wp_wpr_lazy_render_content: finishing file(s) (2, 0.7 KB)
+0055.419 (0) Table wp_wpr_preconnect_external_domains: Total expected rows (via COUNT): 4
+0055.420 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.420 (0) Table wp_wpr_preconnect_external_domains: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2148) in 0.01 seconds
+0055.425 (0) Table wp_wpr_preconnect_external_domains: finishing file(s) (2, 0.7 KB)
+0055.432 (0) Table wp_wpr_preload_fonts: Total expected rows (via COUNT): 0
+0055.433 (0) Table wp_wpr_preload_fonts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1086) in 0.00 seconds
+0055.438 (0) Table wp_wpr_preload_fonts: finishing file(s) (2, 0.5 KB)
+0055.441 (0) Table wp_wpr_rocket_cache: Total expected rows (via COUNT): 4
+0055.441 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.443 (0) Table wp_wpr_rocket_cache: Rows added in this batch (next record: 495): 4 (uncompressed bytes in this segment=1360) in 0.00 seconds
+0055.447 (0) Table wp_wpr_rocket_cache: finishing file(s) (2, 0.6 KB)
+0055.452 (0) Table wp_wpr_rucss_used_css: Total expected rows (via COUNT): 6
+0055.452 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.453 (0) Table wp_wpr_rucss_used_css: Rows added in this batch (next record: 10): 6 (uncompressed bytes in this segment=3267) in 0.00 seconds
+0055.459 (0) Table wp_wpr_rucss_used_css: finishing file(s) (2, 1.1 KB)
+0055.465 (0) Table wp_asenha_failed_logins: Total expected rows (via COUNT): 0
+0055.467 (0) Table wp_asenha_failed_logins: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1037) in 0.00 seconds
+0055.473 (0) Table wp_asenha_failed_logins: finishing file(s) (2, 0.4 KB)
+0055.479 (0) Table wp_cmplz_cookiebanners: Total expected rows (via COUNT): 1
+0055.479 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.481 (0) Table wp_cmplz_cookiebanners: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=7057) in 0.01 seconds
+0055.485 (0) Table wp_cmplz_cookiebanners: finishing file(s) (2, 1.9 KB)
+0055.491 (0) Table wp_cmplz_cookies: Total expected rows (via COUNT): 32
+0055.491 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.493 (0) Table wp_cmplz_cookies: Rows added in this batch (next record: 32): 32 (uncompressed bytes in this segment=5951) in 0.00 seconds
+0055.497 (0) Table wp_cmplz_cookies: finishing file(s) (2, 1.2 KB)
+0055.502 (0) Table wp_cmplz_dnsmpd: Total expected rows (via COUNT): 0
+0055.503 (0) Table wp_cmplz_dnsmpd: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=907) in 0.00 seconds
+0055.508 (0) Table wp_cmplz_dnsmpd: finishing file(s) (2, 0.4 KB)
+0055.513 (0) Table wp_cmplz_services: Total expected rows (via COUNT): 1
+0055.513 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.515 (0) Table wp_cmplz_services: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1237) in 0.00 seconds
+0055.520 (0) Table wp_cmplz_services: finishing file(s) (2, 0.5 KB)
+0055.524 (0) Table wp_db7_forms: Total expected rows (via COUNT): 0
+0055.525 (0) Table wp_db7_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=575) in 0.00 seconds
+0055.531 (0) Table wp_db7_forms: finishing file(s) (2, 0.4 KB)
+0055.535 (0) Table wp_iwp_backup_status: Total expected rows (via COUNT): 0
+0055.536 (0) Table wp_iwp_backup_status: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1241) in 0.00 seconds
+0055.542 (0) Table wp_iwp_backup_status: finishing file(s) (2, 0.5 KB)
+0055.546 (0) Table wp_iwp_processed_iterator: Total expected rows (via COUNT): 0
+0055.547 (0) Table wp_iwp_processed_iterator: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=560) in 0.00 seconds
+0055.553 (0) Table wp_iwp_processed_iterator: finishing file(s) (2, 0.3 KB)
+0055.560 (0) Table wp_us_filter_index: Total expected rows (via COUNT): 0
+0055.561 (0) Table wp_us_filter_index: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=905) in 0.00 seconds
+0055.567 (0) Table wp_us_filter_index: finishing file(s) (2, 0.4 KB)
+0055.571 (0) Table wp_wfAuditEvents: Total expected rows (via COUNT): 0
+0055.572 (0) Table wp_wfAuditEvents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=705) in 0.00 seconds
+0055.577 (0) Table wp_wfAuditEvents: finishing file(s) (2, 0.4 KB)
+0055.581 (0) Table wp_wfBlockedIPLog: Total expected rows (approximate): 640
+0055.589 (0) Table wp_wfBlockedIPLog: Rows added in this batch (next record: 1000): 640 (uncompressed bytes in this segment=41592) in 0.01 seconds
+0055.595 (0) Table wp_wfBlockedIPLog: finishing file(s) (2, 5.4 KB)
+0055.598 (0) Table wp_wfBlocks7: Total expected rows (via COUNT): 1
+0055.599 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.600 (0) Table wp_wfBlocks7: Rows added in this batch (next record: 132801): 1 (uncompressed bytes in this segment=1003) in 0.00 seconds
+0055.606 (0) Table wp_wfBlocks7: finishing file(s) (2, 0.5 KB)
+0055.610 (0) Table wp_wfConfig: Total expected rows (approximate): 311
+0055.664 (0) Table wp_wfConfig: Rows added in this batch (next record: 1000): 311 (uncompressed bytes in this segment=948263) in 0.05 seconds
+0055.671 (0) Table wp_wfConfig: finishing file(s) (2, 459.4 KB)
+0055.675 (0) Table wp_wfCrawlers: Total expected rows (approximate): 1
+0055.677 (0) Table wp_wfCrawlers: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=682) in 0.00 seconds
+0055.683 (0) Table wp_wfCrawlers: finishing file(s) (2, 0.4 KB)
+0055.687 (0) Table wp_wfFileChanges: Total expected rows (approximate): 0
+0055.687 (0) Table wp_wfFileChanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=452) in 0.00 seconds
+0055.692 (0) Table wp_wfFileChanges: finishing file(s) (2, 0.3 KB)
+0055.697 (0) Table wp_wfFileMods: Total expected rows (approximate): 24588
+0056.191 (0) Table wp_wfFileMods: Rows added in this batch (next record: 28000): 24588 (uncompressed bytes in this segment=10040879) in 0.49 seconds
+0056.201 (0) Table wp_wfFileMods: finishing file(s) (2, 2354.1 KB)
+0056.205 (0) Table wp_wfHits: Total expected rows (approximate): 1080
+0056.229 (0) Table wp_wfHits: Rows added in this batch (next record: 349946): 1080 (uncompressed bytes in this segment=326326) in 0.02 seconds
+0056.234 (0) Table wp_wfHits: finishing file(s) (2, 26.4 KB)
+0056.237 (0) Table wp_wfHoover: Total expected rows (via COUNT): 0
+0056.238 (0) Table wp_wfHoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=476) in 0.00 seconds
+0056.243 (0) Table wp_wfHoover: finishing file(s) (2, 0.3 KB)
+0056.247 (0) Table wp_wfIssues: Total expected rows (via COUNT): 5
+0056.248 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.251 (0) Table wp_wfIssues: Rows added in this batch (next record: 8654): 5 (uncompressed bytes in this segment=9185) in 0.00 seconds
+0056.256 (0) Table wp_wfIssues: finishing file(s) (2, 2.5 KB)
+0056.259 (0) Table wp_wfKnownFileList: Total expected rows (approximate): 24589
+0056.493 (0) Table wp_wfKnownFileList: Rows added in this batch (next record: 24589): 24589 (uncompressed bytes in this segment=5505218) in 0.23 seconds
+0056.500 (0) Table wp_wfKnownFileList: finishing file(s) (2, 353.9 KB)
+0056.503 (0) Table wp_wfLiveTrafficHuman: Total expected rows (approximate): 0
+0056.504 (0) Table wp_wfLiveTrafficHuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0056.509 (0) Table wp_wfLiveTrafficHuman: finishing file(s) (2, 0.3 KB)
+0056.512 (0) Table wp_wfLocs: Total expected rows (approximate): 0
+0056.513 (0) Table wp_wfLocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=639) in 0.00 seconds
+0056.518 (0) Table wp_wfLocs: finishing file(s) (2, 0.4 KB)
+0056.522 (0) Table wp_wfLogins: Total expected rows (approximate): 2000
+0056.561 (0) Table wp_wfLogins: Rows added in this batch (next record: 42069): 2000 (uncompressed bytes in this segment=434311) in 0.04 seconds
+0056.567 (0) Table wp_wfLogins: finishing file(s) (2, 51 KB)
+0056.570 (0) Table wp_wfNotifications: Total expected rows (approximate): 396
+0056.576 (0) Table wp_wfNotifications: Rows added in this batch (next record: 1000): 396 (uncompressed bytes in this segment=69737) in 0.01 seconds
+0056.582 (0) Table wp_wfNotifications: finishing file(s) (2, 5.5 KB)
+0056.586 (0) Table wp_wfPendingIssues: Total expected rows (via COUNT): 0
+0056.586 (0) Table wp_wfPendingIssues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.00 seconds
+0056.591 (0) Table wp_wfPendingIssues: finishing file(s) (2, 0.4 KB)
+0056.595 (0) Table wp_wfReverseCache: Total expected rows (approximate): 0
+0056.596 (0) Table wp_wfReverseCache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=456) in 0.00 seconds
+0056.601 (0) Table wp_wfReverseCache: finishing file(s) (2, 0.3 KB)
+0056.604 (0) Table wp_wfSNIPCache: Total expected rows (via COUNT): 1
+0056.605 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.607 (0) Table wp_wfSNIPCache: Rows added in this batch (next record: 152259): 1 (uncompressed bytes in this segment=829) in 0.00 seconds
+0056.612 (0) Table wp_wfSNIPCache: finishing file(s) (2, 0.5 KB)
+0056.615 (0) Table wp_wfSecurityEvents: Total expected rows (via COUNT): 0
+0056.616 (0) Table wp_wfSecurityEvents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=678) in 0.00 seconds
+0056.621 (0) Table wp_wfSecurityEvents: finishing file(s) (2, 0.4 KB)
+0056.624 (0) Table wp_wfStatus: Total expected rows (via COUNT): 961
+0056.636 (0) Table wp_wfStatus: Rows added in this batch (next record: 271965): 961 (uncompressed bytes in this segment=98882) in 0.01 seconds
+0056.642 (0) Table wp_wfStatus: finishing file(s) (2, 16.9 KB)
+0056.645 (0) Table wp_wfTrafficRates: Total expected rows (approximate): 0
+0056.645 (0) Table wp_wfTrafficRates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=566) in 0.00 seconds
+0056.650 (0) Table wp_wfTrafficRates: finishing file(s) (2, 0.3 KB)
+0056.654 (0) Table wp_wfWafFailures: Total expected rows (via COUNT): 0
+0056.655 (0) Table wp_wfWafFailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=527) in 0.00 seconds
+0056.660 (0) Table wp_wfWafFailures: finishing file(s) (2, 0.3 KB)
+0056.665 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 1
+0056.666 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.668 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=908) in 0.00 seconds
+0056.673 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.5 KB)
+0056.676 (0) Table wp_wfls_role_counts: Total expected rows (approximate): 0
+0056.678 (0) Table wp_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=550) in 0.00 seconds
+0056.683 (0) Table wp_wfls_role_counts: finishing file(s) (2, 0.3 KB)
+0056.686 (0) Table wp_wfls_settings: Total expected rows (approximate): 30
+0056.687 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 30 (uncompressed bytes in this segment=2047) in 0.00 seconds
+0056.692 (0) Table wp_wfls_settings: finishing file(s) (2, 0.9 KB)
+0056.697 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 18
+0056.697 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.699 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 42): 18 (uncompressed bytes in this segment=12263) in 0.00 seconds
+0056.704 (0) Table wp_yoast_indexable: finishing file(s) (2, 2.6 KB)
+0056.707 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 16
+0056.709 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 16 (uncompressed bytes in this segment=1052) in 0.00 seconds
+0056.715 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0056.719 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0056.719 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.722 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1269) in 0.00 seconds
+0056.727 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0056.730 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0056.731 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.00 seconds
+0056.736 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0056.740 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 15
+0056.741 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.743 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 76): 15 (uncompressed bytes in this segment=2959) in 0.00 seconds
+0056.748 (0) Table wp_yoast_seo_links: finishing file(s) (2, 1 KB)
+0056.752 (0) Table wp_yoast_seo_meta: Total expected rows (via COUNT): 22
+0056.752 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.754 (0) Table wp_yoast_seo_meta: Rows added in this batch (next record: 139): 22 (uncompressed bytes in this segment=937) in 0.00 seconds
+0056.759 (0) Table wp_yoast_seo_meta: finishing file(s) (2, 0.4 KB)
+0056.762 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_options.table.tmpr420017.gz (1/62/fopen): adding to final database dump
+0056.764 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_options.table.gz (2/62/fopen): adding to final database dump
+0056.764 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_users.table.tmpr5.gz (3/62/fopen): adding to final database dump
+0056.766 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_users.table.gz (4/62/fopen): adding to final database dump
+0056.766 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_usermeta.table.tmpr158.gz (5/62/fopen): adding to final database dump
+0056.767 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_usermeta.table.gz (6/62/fopen): adding to final database dump
+0056.767 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_actionscheduler_actions.table.tmpr0.gz (7/62/fopen): adding to final database dump
+0056.769 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_actionscheduler_actions.table.gz (8/62/fopen): adding to final database dump
+0056.769 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_actionscheduler_claims.table.tmpr13584.gz (9/62/fopen): adding to final database dump
+0056.770 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_actionscheduler_claims.table.gz (10/62/fopen): adding to final database dump
+0056.771 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_actionscheduler_groups.table.tmpr6.gz (11/62/fopen): adding to final database dump
+0056.772 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_actionscheduler_groups.table.gz (12/62/fopen): adding to final database dump
+0056.772 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_actionscheduler_logs.table.tmpr0.gz (13/62/fopen): adding to final database dump
+0056.774 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_actionscheduler_logs.table.gz (14/62/fopen): adding to final database dump
+0056.774 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_commentmeta.table.tmpr0.gz (15/62/fopen): adding to final database dump
+0056.775 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_commentmeta.table.gz (16/62/fopen): adding to final database dump
+0056.775 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_comments.table.tmpr0.gz (17/62/fopen): adding to final database dump
+0056.776 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_comments.table.gz (18/62/fopen): adding to final database dump
+0056.777 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_links.table.tmpr0.gz (19/62/fopen): adding to final database dump
+0056.778 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_links.table.gz (20/62/fopen): adding to final database dump
+0056.778 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_postmeta.table.tmpr872.gz (21/62/fopen): adding to final database dump
+0056.779 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_postmeta.table.gz (22/62/fopen): adding to final database dump
+0056.780 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_posts.table.tmpr220.gz (23/62/fopen): adding to final database dump
+0056.781 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_posts.table.gz (24/62/fopen): adding to final database dump
+0056.782 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_term_relationships.table.tmpr1.gz (25/62/fopen): adding to final database dump
+0056.783 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_term_relationships.table.gz (26/62/fopen): adding to final database dump
+0056.783 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_term_taxonomy.table.tmpr2.gz (27/62/fopen): adding to final database dump
+0056.784 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_term_taxonomy.table.gz (28/62/fopen): adding to final database dump
+0056.785 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_termmeta.table.tmpr0.gz (29/62/fopen): adding to final database dump
+0056.786 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_termmeta.table.gz (30/62/fopen): adding to final database dump
+0056.786 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_terms.table.tmpr2.gz (31/62/fopen): adding to final database dump
+0056.787 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_terms.table.gz (32/62/fopen): adding to final database dump
+0056.787 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_above_the_fold.table.tmpr18.gz (33/62/fopen): adding to final database dump
+0056.789 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_above_the_fold.table.gz (34/62/fopen): adding to final database dump
+0056.790 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_lazy_render_content.table.tmpr18.gz (35/62/fopen): adding to final database dump
+0056.791 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_lazy_render_content.table.gz (36/62/fopen): adding to final database dump
+0056.792 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_preconnect_external_domains.table.tmpr5.gz (37/62/fopen): adding to final database dump
+0056.793 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_preconnect_external_domains.table.gz (38/62/fopen): adding to final database dump
+0056.793 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_preload_fonts.table.tmpr0.gz (39/62/fopen): adding to final database dump
+0056.794 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_preload_fonts.table.gz (40/62/fopen): adding to final database dump
+0056.795 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_rocket_cache.table.tmpr496.gz (41/62/fopen): adding to final database dump
+0056.796 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_rocket_cache.table.gz (42/62/fopen): adding to final database dump
+0056.796 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_rucss_used_css.table.tmpr11.gz (43/62/fopen): adding to final database dump
+0056.797 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wpr_rucss_used_css.table.gz (44/62/fopen): adding to final database dump
+0056.798 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_asenha_failed_logins.table.tmpr0.gz (45/62/fopen): adding to final database dump
+0056.799 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_asenha_failed_logins.table.gz (46/62/fopen): adding to final database dump
+0056.799 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_cmplz_cookiebanners.table.tmpr2.gz (47/62/fopen): adding to final database dump
+0056.800 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_cmplz_cookiebanners.table.gz (48/62/fopen): adding to final database dump
+0056.801 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_cmplz_cookies.table.tmpr33.gz (49/62/fopen): adding to final database dump
+0056.802 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_cmplz_cookies.table.gz (50/62/fopen): adding to final database dump
+0056.803 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_cmplz_dnsmpd.table.tmpr0.gz (51/62/fopen): adding to final database dump
+0056.804 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_cmplz_dnsmpd.table.gz (52/62/fopen): adding to final database dump
+0056.804 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_cmplz_services.table.tmpr2.gz (53/62/fopen): adding to final database dump
+0056.805 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_cmplz_services.table.gz (54/62/fopen): adding to final database dump
+0056.806 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_db7_forms.table.tmpr0.gz (55/62/fopen): adding to final database dump
+0056.807 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_db7_forms.table.gz (56/62/fopen): adding to final database dump
+0056.807 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_iwp_backup_status.table.tmpr0.gz (57/62/fopen): adding to final database dump
+0056.808 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_iwp_backup_status.table.gz (58/62/fopen): adding to final database dump
+0056.809 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_iwp_processed_iterator.table.tmpr0.gz (59/62/fopen): adding to final database dump
+0056.810 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_iwp_processed_iterator.table.gz (60/62/fopen): adding to final database dump
+0056.810 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_us_filter_index.table.tmpr0.gz (61/62/fopen): adding to final database dump
+0056.811 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_us_filter_index.table.gz (62/62/fopen): adding to final database dump
+0056.812 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfAuditEvents.table.tmpr0.gz (63/62/fopen): adding to final database dump
+0056.813 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfAuditEvents.table.gz (64/62/fopen): adding to final database dump
+0056.813 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfBlockedIPLog.table.tmpr1001.gz (65/62/fopen): adding to final database dump
+0056.814 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfBlockedIPLog.table.gz (66/62/fopen): adding to final database dump
+0056.815 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfBlocks7.table.tmpr132802.gz (67/62/fopen): adding to final database dump
+0056.816 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfBlocks7.table.gz (68/62/fopen): adding to final database dump
+0056.816 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfConfig.table.tmpr1001.gz (69/62/fopen): adding to final database dump
+0056.820 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfConfig.table.gz (70/62/fopen): adding to final database dump
+0056.821 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfCrawlers.table.tmpr1001.gz (71/62/fopen): adding to final database dump
+0056.823 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfCrawlers.table.gz (72/62/fopen): adding to final database dump
+0056.823 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfFileChanges.table.tmpr1.gz (73/62/fopen): adding to final database dump
+0056.824 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfFileChanges.table.gz (74/62/fopen): adding to final database dump
+0056.825 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfFileMods.table.tmpr28001.gz (75/62/fopen): adding to final database dump
+0056.842 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfFileMods.table.gz (76/62/fopen): adding to final database dump
+0056.844 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfHits.table.tmpr349947.gz (77/62/fopen): adding to final database dump
+0056.845 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfHits.table.gz (78/62/fopen): adding to final database dump
+0056.846 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfHoover.table.tmpr0.gz (79/62/fopen): adding to final database dump
+0056.847 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfHoover.table.gz (80/62/fopen): adding to final database dump
+0056.848 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfIssues.table.tmpr8655.gz (81/62/fopen): adding to final database dump
+0056.849 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfIssues.table.gz (82/62/fopen): adding to final database dump
+0056.849 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfKnownFileList.table.tmpr24590.gz (83/62/fopen): adding to final database dump
+0056.852 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfKnownFileList.table.gz (84/62/fopen): adding to final database dump
+0056.853 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfLiveTrafficHuman.table.tmpr1.gz (85/62/fopen): adding to final database dump
+0056.854 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfLiveTrafficHuman.table.gz (86/62/fopen): adding to final database dump
+0056.855 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfLocs.table.tmpr1.gz (87/62/fopen): adding to final database dump
+0056.856 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfLocs.table.gz (88/62/fopen): adding to final database dump
+0056.857 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfLogins.table.tmpr42070.gz (89/62/fopen): adding to final database dump
+0056.858 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfLogins.table.gz (90/62/fopen): adding to final database dump
+0056.859 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfNotifications.table.tmpr1001.gz (91/62/fopen): adding to final database dump
+0056.860 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfNotifications.table.gz (92/62/fopen): adding to final database dump
+0056.861 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfPendingIssues.table.tmpr0.gz (93/62/fopen): adding to final database dump
+0056.862 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfPendingIssues.table.gz (94/62/fopen): adding to final database dump
+0056.862 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfReverseCache.table.tmpr1.gz (95/62/fopen): adding to final database dump
+0056.863 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfReverseCache.table.gz (96/62/fopen): adding to final database dump
+0056.864 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfSNIPCache.table.tmpr152260.gz (97/62/fopen): adding to final database dump
+0056.864 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfSNIPCache.table.gz (98/62/fopen): adding to final database dump
+0056.865 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfSecurityEvents.table.tmpr0.gz (99/62/fopen): adding to final database dump
+0056.866 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfSecurityEvents.table.gz (100/62/fopen): adding to final database dump
+0056.867 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfStatus.table.tmpr271966.gz (101/62/fopen): adding to final database dump
+0056.869 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfStatus.table.gz (102/62/fopen): adding to final database dump
+0056.869 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfTrafficRates.table.tmpr1.gz (103/62/fopen): adding to final database dump
+0056.870 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfTrafficRates.table.gz (104/62/fopen): adding to final database dump
+0056.871 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfWafFailures.table.tmpr0.gz (105/62/fopen): adding to final database dump
+0056.872 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfWafFailures.table.gz (106/62/fopen): adding to final database dump
+0056.873 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfls_2fa_secrets.table.tmpr2.gz (107/62/fopen): adding to final database dump
+0056.874 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfls_2fa_secrets.table.gz (108/62/fopen): adding to final database dump
+0056.874 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfls_role_counts.table.tmpr1.gz (109/62/fopen): adding to final database dump
+0056.876 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfls_role_counts.table.gz (110/62/fopen): adding to final database dump
+0056.876 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfls_settings.table.tmpr1001.gz (111/62/fopen): adding to final database dump
+0056.877 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_wfls_settings.table.gz (112/62/fopen): adding to final database dump
+0056.878 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_indexable.table.tmpr43.gz (113/62/fopen): adding to final database dump
+0056.879 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_indexable.table.gz (114/62/fopen): adding to final database dump
+0056.879 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (115/62/fopen): adding to final database dump
+0056.880 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_indexable_hierarchy.table.gz (116/62/fopen): adding to final database dump
+0056.881 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_migrations.table.tmpr25.gz (117/62/fopen): adding to final database dump
+0056.881 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_migrations.table.gz (118/62/fopen): adding to final database dump
+0056.882 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_primary_term.table.tmpr0.gz (119/62/fopen): adding to final database dump
+0056.883 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_primary_term.table.gz (120/62/fopen): adding to final database dump
+0056.883 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_seo_links.table.tmpr77.gz (121/62/fopen): adding to final database dump
+0056.884 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_seo_links.table.gz (122/62/fopen): adding to final database dump
+0056.884 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_seo_meta.table.tmpr140.gz (123/62/fopen): adding to final database dump
+0056.885 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db-table-wp_yoast_seo_meta.table.gz (124/62/fopen): adding to final database dump
+0056.903 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db.gz: finished writing out complete database file (3456.3 KB)
+0056.995 (0) Total database tables backed up: 62 (backup_2025-06-23-0541_AmaReno_1843d176ed67-db.gz, size: 3539397, sha1: d701061c73c156849b19d8081f10719bf85a6f1e, sha256: d79980ba969cc116eb3210dc228714d38418d794bfbe354d6c85ab81fabde37d)
+0057.000 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip: plugins: This file has already been successfully uploaded
+0057.000 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-themes.zip: themes: This file has already been successfully uploaded
+0057.000 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-uploads.zip: uploads: This file has already been successfully uploaded
+0057.001 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0057.001 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-others.zip: others: This file has already been successfully uploaded
+0057.001 (0) backup_2025-06-23-0541_AmaReno_1843d176ed67-db.gz: db: This file has not yet been successfully uploaded: will queue
+0057.002 (0) Saving backup history. Total backup size: 86.3 MB
+0057.003 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0057.005 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0057.005 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-80aeb31918c13d5cda4b2aad3e129a13)
+0057.130 (0) FTP: upload attempt: backup_2025-06-23-0541_AmaReno_1843d176ed67-db.gz -> ftp://amarenobe@amarenobe@ftp.amarenobe.webhosting.be//backup_2025-06-23-0541_AmaReno_1843d176ed67-db.gz
+0057.142 (0) Ftp chunked upload: 14.9 % uploaded
+0057.151 (0) Ftp chunked upload: 29.8 % uploaded
+0057.163 (0) Ftp chunked upload: 44.8 % uploaded
+0057.177 (0) Ftp chunked upload: 59.7 % uploaded
+0057.196 (0) Ftp chunked upload: 89.4 % uploaded
+0057.219 (0) FTP: upload attempt successful (3456.4KB in 0.09s)
+0057.220 (0) Recording as successfully uploaded: backup_2025-06-23-0541_AmaReno_1843d176ed67-db.gz
+0057.223 (0) Deleting local file: backup_2025-06-23-0541_AmaReno_1843d176ed67-db.gz: OK
+0057.225 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=12, retain_db=12
+0057.226 (0) Number of backup sets in history: 3; groups (db): 1
+0057.226 (0) Examining (for databases) backup set with group_id=0, nonce=1843d176ed67, datestamp=1750650114 (Jun 23 2025 03:41:54)
+0057.227 (0) This backup set is the backup set just made, so will not be deleted.
+0057.227 (0) Examining (for databases) backup set with group_id=0, nonce=64ccb8ee0d03, datestamp=1748069016 (May 24 2025 06:43:36)
+0057.227 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0057.227 (0) Examining (for databases) backup set with group_id=0, nonce=662fd6ac46dc, datestamp=1745825575 (Apr 28 2025 07:32:55)
+0057.227 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0057.227 (0) Number of backup sets in history: 3; groups (files): 1
+0057.227 (0) Examining (for files) backup set with nonce=1843d176ed67, datestamp=1750650114 (Jun 23 2025 03:41:54)
+0057.227 (0) This backup set is the backup set just made, so will not be deleted.
+0057.227 (0) This backup set is the backup set just made, so will not be deleted.
+0057.228 (0) This backup set is the backup set just made, so will not be deleted.
+0057.228 (0) This backup set is the backup set just made, so will not be deleted.
+0057.228 (0) This backup set is the backup set just made, so will not be deleted.
+0057.228 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0057.228 (0) Examining (for files) backup set with nonce=64ccb8ee0d03, datestamp=1748069016 (May 24 2025 06:43:36)
+0057.228 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0057.228 (0) Examining (for files) backup set with nonce=662fd6ac46dc, datestamp=1745825575 (Apr 28 2025 07:32:55)
+0057.228 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0057.228 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0057.230 (0) Resume backup (1843d176ed67, 0): finish run
+0057.231 (0) Decremented the semaphore (fd) by 1
+0057.231 (0) Semaphore (fd) unlocked
+0057.231 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0057.233 (0) Deleting zip manifest (backup_2025-06-23-0541_AmaReno_1843d176ed67-plugins.zip.list.tmp)
+0057.235 (0) Deleting zip manifest (backup_2025-06-23-0541_AmaReno_1843d176ed67-themes.zip.list.tmp)
+0057.236 (0) Deleting zip manifest (backup_2025-06-23-0541_AmaReno_1843d176ed67-uploads.zip.list.tmp)
+0057.237 (0) Deleting zip manifest (backup_2025-06-23-0541_AmaReno_1843d176ed67-mu-plugins.zip.list.tmp)
+0057.237 (0) Deleting zip manifest (backup_2025-06-23-0541_AmaReno_1843d176ed67-others.zip.list.tmp)
+0057.238 (0) No email will/can be sent - the user has not configured an email address.
+0057.239 (0) The backup succeeded and is now complete
