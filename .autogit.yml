@@ -7,7 +7,7 @@
 
 domain: amareno.be
 production: master
-target: wp-content
+target: /www/wp-content
 
 # Example shared files and folders:
 # shared_files: [ etc/config.yml ]
