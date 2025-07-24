@@ -6,7 +6,7 @@
 #######################################################################################
 
 domain: amareno.be
-production: master
+production: main
 source: app/public/
 target: /www/
 
