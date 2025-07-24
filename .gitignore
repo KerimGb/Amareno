@@ -1,0 +1,17 @@
+
+# Ignore uploads
+wp-content/uploads/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Environment and sensitive files
+.env
+wp-config.php
+wp-config-local.php
+wp-content/debug.log
